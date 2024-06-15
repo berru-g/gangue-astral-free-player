@@ -4,9 +4,10 @@ const tracks = [
     { title: 'Boule', file: './2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
     { title: 'Encore', file: './2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
     { title: 'ff', file: './2024/ff.wav', backgroundClass: 'bg-animation-3' },
-    { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-1'},
+    { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-3'},
     { title: 'OSC', file: './2024/OSC.wav', background: 'url_to_background_image2.jpg' },
-    { title: 'Track 6', file: './2024/', background: 'url_to_background_image3.jpg' }
+    { title: 'Utopia', file: './2023/UTOPIA.wav', background: 'url_to_background_image3.jpg' },
+{ title: 'Romance', file: './2023/ROMANCE.wav', background: 'url_to_background_image3.jpg' }
 ];
 
 const playlist = document.getElementById('playlist');
