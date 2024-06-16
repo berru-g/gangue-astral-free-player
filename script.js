@@ -1,15 +1,14 @@
-
-
+//player wav src https://github.com/berru-g/gangue-astral-free-player/raw/main/2023/ROMANCE.wav
 const tracks = [
-    { title: 'Boule', file: 'https://github.com/berru-g/gangue-astral-free-player/raw/main/2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
-    { title: 'Encore', file: 'https://github.com/berru-g/gangue-astral-free-player/raw/main/2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
+    { title: 'Boule', file: './2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
+    { title: 'Encore', file: './2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
     { title: 'ff', file: './2024/ff.wav', backgroundClass: 'bg-animation-3' },
     { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-1'},
-    { title: 'OSC', file: './2024/OSC.wav', background: 'url_to_background_image2.jpg' },
-    { title: 'Track 6', file: './2024/', background: 'url_to_background_image3.jpg' },
-    { title: 'Track 7', file: './2024/', background: 'url_to_background_image3.jpg' },
-    { title: 'Track 8', file: './2024/', background: 'url_to_background_image3.jpg' },
-    { title: 'Track 9', file: './2024/', background: 'url_to_background_image3.jpg' }
+    { title: 'OSC', file: './2024/OSC.wav', backgroundClass: 'bg-animation-2'},
+    { title: 'ROMANCE', file: './2023/ROMANCE.wav', backgroundClass: 'bg-animation-3'},
+    { title: 'UTOPIA', file: './2023/UTOPIA.wav', backgroundClass: 'bg-animation-1'},
+    { title: '4h55 du mat', file: '2023/4h55 DUMAT.wav', backgroundClass: 'bg-animation-1'},
+    { title: 'Bassline', file: '2023/BASSLINE2.wav', backgroundClass: 'bg-animation-1'}
   
   
   
