@@ -10,8 +10,6 @@ const tracks = [
     { title: '4h55 du mat', file: '2023/4h55 DUMAT.wav', backgroundClass: 'bg-animation-1'},
     { title: 'Bassline', file: '2023/BASSLINE2.wav', backgroundClass: 'bg-animation-1'}
   
-  
-  
 ];
 
 const playlist = document.getElementById('playlist');
@@ -78,13 +76,14 @@ function loadTrack(index) {
     audioPlayer.src = tracks[index].file;
     trackTitle.textContent = tracks[index].title;
     playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
-
+  
     // Supprimer toutes les classes d'animation de fond
     document.body.classList.remove('bg-animation-1', 'bg-animation-2', 'bg-animation-3');
-    
+  
     // Ajouter la classe d'animation de fond correspondante à la piste
     document.body.classList.add(tracks[index].backgroundClass);
-}
+  }
+  
 
 
 
@@ -92,10 +91,10 @@ loadTrack(currentTrackIndex);
 
 document.getElementById('main-title').addEventListener('click', function() {
   Swal.fire({
-    title: 'Contact',
+    title: '🔊',
     html: `
-      <ul style="list-style: none; padding: 0;">
-        <li><a href="#" onclick="menuItemClick('Option 1')">Youtube</a></li>
+      <ul style="list-style: none; padding: 4;">
+        <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Option 1')">Youtube</a></li>
         <li><a href="#" onclick="menuItemClick('Option 2')">Napster</a></li>
         <li><a href="#" onclick="menuItemClick('Option 3')">Option 3</a></li>
       </ul>

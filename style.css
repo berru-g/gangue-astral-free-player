@@ -1,3 +1,57 @@
+.bg-animation-1 {
+  background: linear-gradient(270deg, #ff7e5f, #feb47b);
+  background-size: 400% 400%;
+  animation: gradientAnimation1 15s ease infinite;
+}
+
+@keyframes gradientAnimation1 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-animation-2 {
+  background: linear-gradient(270deg, #6a11cb, #2575fc);
+  background-size: 400% 400%;
+  animation: gradientAnimation2 15s ease infinite;
+}
+
+@keyframes gradientAnimation2 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-animation-3 {
+  background: linear-gradient(270deg, #ff7e5f, #00f260);
+  background-size: 400% 400%;
+  animation: gradientAnimation3 15s ease infinite;
+}
+
+@keyframes gradientAnimation3 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body {
   font-family: 'Arial', sans-serif;
   display: flex;
@@ -6,24 +60,6 @@ body {
   flex-direction: column;
   height: auto;
   margin: 0;
-
-  background: linear-gradient(270deg, #ffb703, #023047);
-  background-size: 400% 400%;
-  animation: gradientAnimation 15s ease infinite;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .menu-container {
