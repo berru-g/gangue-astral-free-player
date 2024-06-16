@@ -128,14 +128,14 @@ function menuItemClick(option) {
 }*/
 document.getElementById('main-title').addEventListener('click', function() {
     Swal.fire({
-        title: 'Découvrez Gangue Astral, un univers musicale éthérée et expérimentale.',
+        title: 'experimental road trip',
         html: `
-            <h2>Producteur amateur depuis 15 ans.</h2>
+            <h4>Producteur amateur depuis 15 ans.</h4>
             <ul style="list-style: none; padding: 0;">
                 <li><a href="./setup.html" onclick="menuItemClick('Guide 1')">Mon set up</a></li>
                 <li><a href="./2024" onclick="menuItemClick('Guide 2')">Album</a></li>
             </ul>
-            <h2>M'écouter</h2>
+            <h4>M'écouter</h4>
             <ul style="list-style: none; padding: 0;">
                 <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Bonne écoute')">Youtube</a></li>
                 <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Merci pour le soutient')">Spotify</a></li>
