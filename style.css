@@ -278,6 +278,12 @@ h1:hover {
   margin-bottom: 20px;
 }
 
+img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
 #controls {
   display: flex;
   justify-content: space-around;
