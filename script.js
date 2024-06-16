@@ -1,14 +1,25 @@
 //player wav src https://github.com/berru-g/gangue-astral-free-player/raw/main/2023/ROMANCE.wav
+Swal.fire({
+    title: 'Découvrez Gangue Astral, un univers musicale éthérée et expérimentale.',
+    text: 'Écoutez mes dernières tracks et plongez dans ma galaxie sonore unique.',
+    icon: 'info',
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false
+  }).then(() => {
+    // Action après la confirmation de la déconnexion
+  });
+
 const tracks = [
     { title: 'Boule', file: './2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
     { title: 'Encore', file: './2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
     { title: 'ff', file: './2024/ff.wav', backgroundClass: 'bg-animation-3' },
-    { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-1'},
-    { title: 'OSC', file: './2024/OSC.wav', backgroundClass: 'bg-animation-2'},
-    { title: 'ROMANCE', file: './2023/ROMANCE.wav', backgroundClass: 'bg-animation-3'},
-    { title: 'UTOPIA', file: './2023/UTOPIA.wav', backgroundClass: 'bg-animation-1'},
-    { title: '4h55 du mat', file: '2023/4h55 DUMAT.wav', backgroundClass: 'bg-animation-1'},
-    { title: 'Bassline', file: '2023/BASSLINE2.wav', backgroundClass: 'bg-animation-1'}
+    { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-4'},
+    { title: 'OSC', file: './2024/OSC.wav', backgroundClass: 'bg-animation-5'},
+    { title: 'ROMANCE', file: './2023/ROMANCE.wav', backgroundClass: 'bg-animation-6'},
+    { title: 'UTOPIA', file: './2023/UTOPIA.wav', backgroundClass: 'bg-animation-7'},
+    { title: '4h55 du mat', file: '2023/4h55 DUMAT.wav', backgroundClass: 'bg-animation-8'},
+    { title: 'Bassline', file: '2023/BASSLINE2.wav', backgroundClass: 'bg-animation-9'}
   
 ];
 
@@ -95,8 +106,10 @@ document.getElementById('main-title').addEventListener('click', function() {
     html: `
       <ul style="list-style: none; padding: 4;">
         <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Option 1')">Youtube</a></li>
-        <li><a href="#" onclick="menuItemClick('Option 2')">Napster</a></li>
-        <li><a href="#" onclick="menuItemClick('Option 3')">Option 3</a></li>
+        <li><a href="#" onclick="menuItemClick('Option 2')">-</a></li>
+        <li><a href="mailto:antoineleberruyer@gmail.com" onclick="menuItemClick('Option 3')">Contact</a></li>
+        <li><a href="#" onclick="menuItemClick('Option 2')">-</a></li>
+        <li><a href="#" onclick="menuItemClick('Option 3')">Soutenir</a></li>
       </ul>
     `,
     showCloseButton: true,
