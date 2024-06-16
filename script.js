@@ -4,10 +4,13 @@ const tracks = [
     { title: 'Boule', file: './2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
     { title: 'Encore', file: './2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
     { title: 'ff', file: './2024/ff.wav', backgroundClass: 'bg-animation-3' },
-    { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-3'},
+    { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-3' },
     { title: 'OSC', file: './2024/OSC.wav', background: 'url_to_background_image2.jpg' },
     { title: 'Utopia', file: './2023/UTOPIA.wav', background: 'url_to_background_image3.jpg' },
-{ title: 'Romance', file: './2023/ROMANCE.wav', background: 'url_to_background_image3.jpg' }
+    { title: 'Romance', file: './2023/ROMANCE.wav', background: 'url_to_background_image3.jpg' },
+    { title: 'piste 8', file: './2024/OSC.wav', background: 'url_to_background_image2.jpg' },
+    { title: 'piste 9', file: './2023/UTOPIA.wav', background: 'url_to_background_image3.jpg' },
+    { title: 'piste 10', file: './2023/ROMANCE.wav', background: 'url_to_background_image3.jpg' }
 ];
 
 const playlist = document.getElementById('playlist');
@@ -77,7 +80,7 @@ function loadTrack(index) {
 
     // Supprimer toutes les classes d'animation de fond
     document.body.classList.remove('bg-animation-1', 'bg-animation-2');
-    
+
     // Ajouter la classe d'animation de fond correspondante à la piste
     document.body.classList.add(tracks[index].backgroundClass);
 }

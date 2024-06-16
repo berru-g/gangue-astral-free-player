@@ -3,20 +3,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-flex-direction: column;
+  
   height: auto;
   margin: 0;
-
   background: linear-gradient(270deg, #0d0534, #ffffff);
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite;
 }
 
 @keyframes gradientAnimation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
+
 .menu-container {
   position: relative;
 }
@@ -74,13 +82,14 @@ flex-direction: column;
 }
 
 #audio-player {
-visibility: hidden;
+  visibility: hidden;
 }
+
 .player {
   background-color: #fff;
   padding: 20px;
   margin-top: 20px;
-margin-bottom: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -129,15 +138,16 @@ margin-bottom: 20px;
 }
 
 .formulaire {
-display: flex;
-justify-content: center;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
 }
+
 footer {
-width: 100%;
-height: auto;
-  background: ;
+  width: 100%;
+  height: auto;
+
   color: #fff;
   padding: 2rem 1rem;
   text-align: center;
@@ -183,11 +193,12 @@ height: auto;
   margin: 2rem 0;
 }
 
-.formulaire input, .formulaire textarea {
+.formulaire input,
+.formulaire textarea {
   width: 50%;
   padding: 0.5rem;
   margin: 0.5rem 0;
-  
+
   border-radius: 5px;
 }
 
