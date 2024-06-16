@@ -132,8 +132,8 @@ document.getElementById('main-title').addEventListener('click', function() {
         html: `
             <h4>Producteur amateur depuis 15 ans.</h4>
             <ul style="list-style: none; padding: 0;">
-                <li><a href="./setup.html" onclick="menuItemClick('Guide 1')">Mon set up</a></li>
-                <li><a href="./2024" onclick="menuItemClick('Guide 2')">Album</a></li>
+                <li><a href="./setup.html" onclick="menuItemClick('en cours page test')">Mon set up</a></li>
+                <li><a href="./2024" onclick="menuItemClick('en cours')">Album</a></li>
             </ul>
             <h4>M'écouter</h4>
             <ul style="list-style: none; padding: 0;">
