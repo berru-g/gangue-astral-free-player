@@ -259,7 +259,7 @@ h1:hover {
 }
 
 #audio-player {
-  visibility: hidden;
+  visibility: collapse;
 }
 
 .player {
@@ -279,7 +279,7 @@ h1:hover {
 }
 
 img {
-  width: 30%;
+  width: 60%;
   height: auto;
   border-radius: 50%;
 }
