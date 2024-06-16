@@ -1,7 +1,9 @@
 <html lang="en">
+
 <body>
-  <!-- dev by berru-g -->
+  <!-- partial:index.partial.html -->
   <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,38 +15,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   </head>
+
   <body class="bg-animation-2">
-    <!-- <nav>
-    <div class="menu-container">
-      <div class="hamburger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>-->
-    <script>
-      function toggleMenu() {
-        var menu = document.getElementById("menu");
-        menu.classList.toggle("show");
-      }
-      const hamburgerMenu = document.querySelector('.hamburger-menu');
-      hamburgerMenu.addEventListener('click', () => {
-        // Utilisation de SweetAlert pour afficher la fenêtre contextuelle
-        Swal.fire({
-          title: 'Skills',
-          html: '<ul><li><a href="https://www.instagram.com/berru_aka/">Illustrations & more</a></li><li><a href="https://github.com/berru-g/">Code open source</a></li><li><a href="https://codepen.io/h-lautre">Sites et outils</a></li><li><a href="https://www.tindie.com/stores/makeandplay/">PCB Hardware</a></li></ul>',
-          showCloseButton: true,
-          showConfirmButton: false,
-          customClass: {
-            popup: 'custom-swal-popup',
-            closeButton: 'custom-swal-close-button',
-            content: 'custom-swal-content',
-          }
-        });
-      });
-    </script>
     <div class="player">
-      <h1>Gangue Astral</h1>
+      <h1 id="main-title">Gangue Astral</h1>
       <div id="track-info">
         <h2 id="track-title">Select a track</h2>
         <audio id="audio-player" controls></audio>
@@ -55,9 +29,11 @@
         <button id="next"><i class="fas fa-forward"></i></button>
       </div>
       <div id="playlist">
+        <!-- Playlist will be populated by JavaScript -->
       </div>
     </div>
     <script src="script.js"></script>
+  </body>
   <footer>
     <div id="google-signin-btn"></div>
     <div class="footer-content">
@@ -92,5 +68,5 @@
       <p>Tous droits réservés &copy; 2024 | berru-g</p>
     </div>
   </footer>
-</body>
+
   </html>
