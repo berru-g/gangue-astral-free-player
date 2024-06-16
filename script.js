@@ -1,15 +1,15 @@
 //player wav src https://github.com/berru-g/gangue-astral-free-player/raw/main/2023/ROMANCE.wav
+/*
 Swal.fire({
     title: 'Découvrez Gangue Astral, un univers musicale éthérée et expérimentale.',
-    text: 'Écoutez mes dernières tracks et plongez dans ma galaxie sonore unique.',
+    text: '',
     icon: 'info',
-    timer: 5000,
+    timer: 3000,
     timerProgressBar: true,
     showConfirmButton: false
   }).then(() => {
-    // Action après la confirmation de la déconnexion
   });
-
+*/
 const tracks = [
     { title: 'Boule', file: './2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
     { title: 'Encore', file: './2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
@@ -99,10 +99,11 @@ function loadTrack(index) {
 
 
 loadTrack(currentTrackIndex);
-
+/*
 document.getElementById('main-title').addEventListener('click', function() {
   Swal.fire({
     title: '🔊',
+    subtitle: 'Découvrez Gangue Astral, un univers musicale éthérée et expérimentale.',
     html: `
       <ul style="list-style: none; padding: 4;">
         <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Option 1')">Youtube</a></li>
@@ -124,4 +125,32 @@ function menuItemClick(option) {
     icon: 'success',
     confirmButtonText: 'OK'
   });
+}*/
+document.getElementById('main-title').addEventListener('click', function() {
+    Swal.fire({
+        title: 'Découvrez Gangue Astral, un univers musicale éthérée et expérimentale.',
+        html: `
+            <h2>Producteur amateur depuis 15 ans.</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="./setup.md" onclick="menuItemClick('Guide 1')">Mon set up</a></li>
+                <li><a href="./2024" onclick="menuItemClick('Guide 2')">Album</a></li>
+            </ul>
+            <h2>M'écouter</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Bonne écoute')">Youtube</a></li>
+                <li><a href="https://www.youtube.com/@gangueastral1024" onclick="menuItemClick('Merci pour le soutient')">Spotify</a></li>
+            </ul>
+        `,
+        showCloseButton: true,
+        showConfirmButton: false,
+        focusConfirm: false,
+    });
+});
+
+function menuItemClick(option) {
+    Swal.fire({
+        title: `- ${option}`,
+        icon: 'success',
+        confirmButtonText: 'OK'
+    });
 }

@@ -1,7 +1,7 @@
 .bg-animation-1 {
-  background: linear-gradient(270deg, #e9d8a6, #94d2bd);
+  background: linear-gradient(270deg, #f1f1ee, #3b3b3b);
   background-size: 400% 400%;
-  animation: gradientAnimation1 15s ease infinite;
+  animation: gradientAnimation1 8s ease infinite;
 }
 
 @keyframes gradientAnimation1 {
@@ -19,7 +19,7 @@
 .bg-animation-2 {
   background: linear-gradient(270deg, #ae2012, #005f73);
   background-size: 400% 400%;
-  animation: gradientAnimation2 15s ease infinite;
+  animation: gradientAnimation2 8s ease infinite;
 }
 
 @keyframes gradientAnimation2 {
@@ -37,7 +37,7 @@
 .bg-animation-3 {
   background: linear-gradient(270deg, #ca6702, #0a9396);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
@@ -54,7 +54,7 @@
 .bg-animation-4 {
   background: linear-gradient(270deg, #ffc300, #003566);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
@@ -71,7 +71,7 @@
 .bg-animation-5 {
   background: linear-gradient(270deg, #e0b1cb, #231942);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
@@ -88,7 +88,7 @@
 .bg-animation-6 {
   background: linear-gradient(270deg, #e2c044, #587b7f);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
@@ -105,7 +105,7 @@
 .bg-animation-7 {
   background: linear-gradient(270deg, #80ed99, #22577a);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
@@ -122,7 +122,7 @@
 .bg-animation-8 {
   background: linear-gradient(270deg, #e2c044, #587b7f);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
@@ -139,7 +139,7 @@
 .bg-animation-9 {
   background: linear-gradient(270deg, #ef476f, #06d6a0);
   background-size: 400% 400%;
-  animation: gradientAnimation3 15s ease infinite;
+  animation: gradientAnimation3 8s ease infinite;
 }
 
 @keyframes gradientAnimation3 {
