@@ -19,8 +19,8 @@
 }
 
 .bg-animation-2 {
-  background: linear-gradient(270deg, #ae2012, #005f73);
-  background-size: 400% 400%;
+  background: linear-gradient(270deg, #ae2012, #1f1f1f, #005f73, #5b5b5b);
+  background-size: 600% 600%;
   animation: gradientAnimation2 8s ease infinite;
 }
 
@@ -39,23 +39,8 @@
 }
 
 .bg-animation-3 {
-  background: linear-gradient(270deg, #ca6702, #0a9396);
-  background-size: 400% 400%;
-  animation: gradientAnimation3 8s ease infinite;
-}
-
-@keyframes gradientAnimation3 {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
+  background: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTUzZ3F2cGFvYWIwYWpndHo0YzVoZ3R2ZWFtdW1qcnc3N3RxdjN0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3sfcTEDbgquKpnzCfZ/giphy.gif') center/cover no-repeat; 
+  background-size: 100% 100%;
 }
 
 .bg-animation-4 {
@@ -97,10 +82,10 @@
     background-position: 0% 50%;
   }
 }
-
+/*https://media.giphy.com/media/4gUlu9bWvSwfrfhiaw/giphy.gif*/
 .bg-animation-6 {
-  background: linear-gradient(270deg, #e2c044, #587b7f);
-  background-size: 400% 400%;
+  background-image: url("https://media.giphy.com/media/4gUlu9bWvSwfrfhiaw/giphy.gif");
+  background-size: auto 100%;
   animation: gradientAnimation3 8s ease infinite;
 }
 
@@ -117,6 +102,9 @@
     background-position: 0% 50%;
   }
 }
+
+
+
 
 .bg-animation-7 {
   background: linear-gradient(270deg, #80ed99, #22577a);
@@ -159,23 +147,9 @@
 }
 
 .bg-animation-9 {
-  background: linear-gradient(270deg, #ef476f, #06d6a0);
-  background-size: 400% 400%;
-  animation: gradientAnimation3 8s ease infinite;
-}
-
-@keyframes gradientAnimation3 {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
+  /*background: linear-gradient(270deg, #ef476f, #06d6a0);*/
+  background-image: url("https://media.giphy.com/media/cLHmnYgG8WtNoFzCMI/giphy.gif");
+  background-size: 100% auto;
 }
 
 a {
