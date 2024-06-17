@@ -152,6 +152,22 @@
   background-size: 100% auto;
 }
 
+.bg-animation-10 {
+  background-image: url("./img/ZKSync.webp");
+  background-size: 100% auto;
+}
+.bg-animation-11 {
+  background-image: url("https://i.ytimg.com/vi/qAhq0BxBPsQ/maxresdefault.jpg");
+  background-size: 100% auto;
+}
+.bg-animation-12 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftrentetroisdegres.fr%2Fwp-content%2Fuploads%2F2023%2F04%2FKEROUE-INTERVIEW.jpg&f=1&nofb=1&ipt=8863fbcca23724c45d62da89d25ed1ad7cd0832f78ed3aa45c60e7412d48ddbe&ipo=images");
+  background-size: 100% auto;
+}
+.bg-animation-13 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstrikt.net%2Fwp-content%2Fuploads%2F2022%2F05%2F68knxb1crommaxresdefault.jpg&f=1&nofb=1&ipt=3b2c0e6627ef99c4d3bf7316d6ccb626a088ec7f9eea28f70053da8840748232&ipo=images");
+  background-size: 100% auto;
+}
 a {
   color: #333;
   text-decoration: none;
