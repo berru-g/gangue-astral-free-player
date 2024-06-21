@@ -11,7 +11,7 @@ Swal.fire({
   });
 */
 const tracks = [
-    { title: 'Boule', file: './2024/BOULE.wav', backgroundClass: 'bg-animation-1' },
+    { title: 'vendredi', file: './2024/vendredi.aac', backgroundClass: 'bg-animation-1' },
     { title: 'Encore', file: './2024/ENCORE.wav', backgroundClass: 'bg-animation-2' },
     { title: 'ff', file: './2024/ff.wav', backgroundClass: 'bg-animation-3' },
     { title: 'SOFT', file: './2024/SOFT.wav', backgroundClass: 'bg-animation-4'},
